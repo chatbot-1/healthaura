@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Icons from './Social'
 import Move from './Scroll'
 import "./home.css"
@@ -9,26 +9,14 @@ import Data from '../data/Data'
 import Credit from '../credit/Credit'
 import Devices from '../devices/Devices'
 import Profile from '../profile/Profile'
+import Navbar from '../navbar/Navbar'
 
 const Home = () => {
   return (
     <>
+    <Navbar/>
       <section className="home section">
         <div className="home-container container">
-
-          <div className='navbar'>
-            <h1 className='logo'>The Health.Aura</h1>
-            <div className='nav-list'>
-              <ul>
-                <li>  Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Health Card</li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
-              <i className="uil uil-user"></i>
-          </div>
 
           <div className="home-content" id='home'>
             <div className="data">

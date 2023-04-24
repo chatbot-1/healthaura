@@ -1,0 +1,19 @@
+.navbar{
+    background: #1e857a;
+    color: #0B2447;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9rem;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 23px;
+}

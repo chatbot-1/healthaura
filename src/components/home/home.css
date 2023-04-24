@@ -76,30 +76,3 @@
     margin-top: 25px;
     cursor: pointer;
   }
-
-  .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    /* margin-top: 3rem; */
-    color: #0B2447;
-  }
-  .nav-list ul{
-    margin-top: 2rem;
-    display: flex;
-    list-style: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .logo{
-    margin-top: 2rem;
-  }
-  .uil-user{cursor: pointer;
-    font-size: 23px;
-    font-weight: bold;
-    margin-top: 2rem;
-  }
-  .nav-list ul li{
-    padding: 0 25px;
-  }
