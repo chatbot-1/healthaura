@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Register = () => {
   return (
-    <div className='register section'>
+    <div className='register section' id='register'>
         <div className='register-container container'>
 
             <div className='title register-title'>

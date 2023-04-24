@@ -10,6 +10,9 @@ import Credit from '../credit/Credit'
 import Devices from '../devices/Devices'
 import Profile from '../profile/Profile'
 import Navbar from '../navbar/Navbar'
+import Contact from '../contact/Contact'
+import Footer from '../footer/Footer'
+import Drop from '../dropdown/Drop'
 
 const Home = () => {
   return (
@@ -39,6 +42,9 @@ const Home = () => {
       <Credit />
       <Devices/>
       <Profile/>
+      <Contact/>
+      <Footer/>
+      <Drop/>
 
     </>
   )

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Credit = () => {
   return (
-    <div className="credit section">
+    <div className="credit section" id="health-card">
       <div className="credit-container container">
         <div className="title">
           <h1>The Health Card</h1>
